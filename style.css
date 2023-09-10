@@ -60,7 +60,7 @@ ul li a:hover, .active , .data-info .box:hover,td:hover{
 }
 .log-out{
     position: absolute;
-    bottom: 10px;
+    bottom: 150px;
     width: 100%;
 }
 .log-out a{
