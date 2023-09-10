@@ -41,7 +41,7 @@ body{
 }
 ul{
     list-style: none;
-    height: 95%;
+    max-height: 95%;
     position: relative;
 }
 ul li a{
