@@ -61,7 +61,7 @@ ul li a:hover, .active , .data-info .box:hover,td:hover{
 .log-out{
     position: absolute;
     bottom: 150px;
-    width: 100%;
+    width: 100vh;
 }
 .log-out a{
     background-color: #a00;
