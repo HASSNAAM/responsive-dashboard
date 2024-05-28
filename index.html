@@ -1,200 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>responsive dashboard</title>
-</head>
-<body>
-    <div class="menu">
-        <ul>
-            <li class="fff">
-                <div class="first">
-                    <img src="hassnaa.jpg" alt="profile image">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>Products Dashboard</title>
+    </head>
+
+    <body>
+        <aside>
+            <ul>
+                <li class="user">
+                    <div class="logo">
+                        <img src="./images/hassnaa.jpg" alt="profile image">
+                    </div>
+                    <h1>Hassnaa</h1>
+                </li>
+                <li>
+                    <a class="active" href="#">
+                        <i class="fas fa-home"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-group"></i>
+                        <p>Clients</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-table"></i>
+                        <p>Products</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-chart-pie"></i>
+                        <p>Charts</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-pen"></i>
+                        <p>Posts</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-star"></i>
+                        <p>Favourite</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li class="log-out">
+                    <a href="#">
+                        <i class="fas fa-sign-out"></i>
+                        <p>Log Out</p>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <div class="title">
+                <p>Dashboard</p>
+                <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="data-info">
+                <div class="box">
+                    <i class="fas fa-user"></i>
+                    <div class="data">
+                        <p>User</p>
+                        <span>100</span>
+                    </div>
                 </div>
-                <h2>hassnaa</h2>
-            </li>
-            <li>
-                <a class="active" href="#">
-                    <i class="fas fa-home"></i>
-                    <p>dashboard</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-user-group"></i>
-                    <p>clients</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-table"></i>
-                    <p>products</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-chart-pie"></i>
-                    <p>charts</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
+                <div class="box">
                     <i class="fas fa-pen"></i>
-                    <p>posts</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-star"></i>
-                    <p>favourite</p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-cog"></i>
-                    <p>settings</p>
-                </a>
-            </li>
-            <li class="log-out">
-                <a href="#">
-                    <i class="fas fa-sign-out"></i>
-                    <p>log out</p>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="content">
-        <div class="title">
-            <p>dashboard</p>
-            <i class="fas fa-chart-bar"></i>
-        </div>
-        <div class="data-info">
-            <div class="box">
-                <i class="fas fa-user"></i>
-                <div class="data">
-                    <p>user</p>
-                    <span>100</span>
+                    <div class="data">
+                        <p>Posts</p>
+                        <span>765</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-table"></i>
+                    <div class="data">
+                        <p>Products</p>
+                        <span>34</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-dollar"></i>
+                    <div class="data">
+                        <p>Revenue</p>
+                        <span>$126</span>
+                    </div>
                 </div>
             </div>
-            <div class="box">
-                <i class="fas fa-pen"></i>
-                <div class="data">
-                    <p>posts</p>
-                    <span>765</span>
-                </div>
+            <div class="title">
+                <p>Products</p>
+                <i class="fas fa-chart-table"></i>
             </div>
-            <div class="box">
-                <i class="fas fa-table"></i>
-                <div class="data">
-                    <p>products</p>
-                    <span>34</span>
-                </div>
-            </div>
-            <div class="box">
-                <i class="fas fa-dollar"></i>
-                <div class="data">
-                    <p>revenue</p>
-                    <span>$126</span>
-                </div>
-            </div>
-        </div>
-        <div class="title">
-            <p>products</p>
-            <i class="fas fa-chart-table"></i>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>product</th>
-                    <th>price</th>
-                    <th>count</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>tv</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv2</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv3</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv4</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv5</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>phone</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>i phone</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>pro max</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv glaxy</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv sam</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv lg</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-                <tr>
-                    <td>tv</td>
-                    <td><span class="price">$142</span></td>
-                    <td><span class="count">$54</span></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                </tbody>
+            </table>
+        </main>
+        <script src="./logic/main.js"></script>
+    </body>
+
 </html>
